@@ -13,6 +13,8 @@
 		5767AE491A4C63FE0050AEAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5767AE481A4C63FE0050AEAA /* Images.xcassets */; };
 		5767AE4C1A4C63FE0050AEAA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5767AE4A1A4C63FE0050AEAA /* LaunchScreen.xib */; };
 		5767AE581A4C63FE0050AEAA /* buttonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767AE571A4C63FE0050AEAA /* buttonTests.swift */; };
+		5767AE661A4C71FB0050AEAA /* ThereeBtnPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767AE651A4C71FB0050AEAA /* ThereeBtnPopUp.swift */; };
+		578518451A4D11D300B41166 /* ThreeBtnRotateOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578518441A4D11D300B41166 /* ThreeBtnRotateOut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		5767AE511A4C63FE0050AEAA /* buttonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buttonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5767AE561A4C63FE0050AEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5767AE571A4C63FE0050AEAA /* buttonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonTests.swift; sourceTree = "<group>"; };
+		5767AE651A4C71FB0050AEAA /* ThereeBtnPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThereeBtnPopUp.swift; sourceTree = "<group>"; };
+		578518441A4D11D300B41166 /* ThreeBtnRotateOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeBtnRotateOut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				5767AE411A4C63FE0050AEAA /* AppDelegate.swift */,
 				5767AE431A4C63FE0050AEAA /* ViewController.swift */,
+				5767AE651A4C71FB0050AEAA /* ThereeBtnPopUp.swift */,
+				578518441A4D11D300B41166 /* ThreeBtnRotateOut.swift */,
 				5767AE451A4C63FE0050AEAA /* Main.storyboard */,
 				5767AE481A4C63FE0050AEAA /* Images.xcassets */,
 				5767AE4A1A4C63FE0050AEAA /* LaunchScreen.xib */,
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5767AE661A4C71FB0050AEAA /* ThereeBtnPopUp.swift in Sources */,
+				578518451A4D11D300B41166 /* ThreeBtnRotateOut.swift in Sources */,
 				5767AE441A4C63FE0050AEAA /* ViewController.swift in Sources */,
 				5767AE421A4C63FE0050AEAA /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +413,7 @@
 				5767AE5D1A4C63FE0050AEAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5767AE5E1A4C63FE0050AEAA /* Build configuration list for PBXNativeTarget "buttonTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				5767AE601A4C63FE0050AEAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
